@@ -25,7 +25,7 @@ setuptools.setup(
         "PyJWT >=2.3.0",
         "bcrypt >= 3.1.7",
         "PyYAML >= 5.3.1",
-        "streamlit >= 0.86",
+        "streamlit @ git+https://github.com/Voliboli/streamlit.git#egg=streamlit&subdirectory=lib",
         "extra-streamlit-components >= 0.1.55"
     ],
 )
